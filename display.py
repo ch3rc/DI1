@@ -44,7 +44,7 @@ def display_image(file, rows, cols):
                 i += 1
                 break
             # Go to previous picture with 'p'
-            if key == 112:
+            if key == 112 and i is not 0:
                 i -= 1
                 cv2.destroyWindow('buffer')
                 break

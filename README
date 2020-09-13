@@ -10,6 +10,42 @@ Class:		Digital Image Processing(5420)
 Python: 3.7.4
 OpenCV: 4.4.0
 Imutils: 0.5.3
+Numpy: 1.19.1
+
+to run you must have python 3.7 or greater installed on your
+computer.
+
+to check if you have it installed open up a cmd prompt and 
+type
+
+python -V or python --version
+if this doesnt work
+
+type:
+
+where python, this should return your full path for python.exe
+
+next check to see if pip is installed with the same commands
+pip -V or pip --version
+
+once both are installed you can use the following commands
+to install the dependencies
+
+depending on which version is downloaded
+
+pip install requirements.txt
+pip3 install requirements.txt
+-------------------------------------------------------------
+			Running
+-------------------------------------------------------------
+To run the program you will issue the following commands
+
+python3 browser.py [-h] [-r] [-c] [filepath to images]
+-h: will bring up a help menu
+-r: change the size of rows (default: 720)
+-c: change the size of columns (default: 1080)
+filepath: will require full file path
+
 --------------------------------------------------------------
 			File Logs
 --------------------------------------------------------------
@@ -17,6 +53,5 @@ Refer to https://github.com/ch3rc/DI1 for commit history
 --------------------------------------------------------------
 			Issues
 --------------------------------------------------------------
-So far the only issue i am running into is getting a good
-Makefile put together
+no issues so far
 --------------------------------------------------------------
